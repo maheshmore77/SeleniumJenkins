@@ -26,7 +26,7 @@ public class NewTest {
 		
 		log.setLevel(org.apache.log4j.Level.OFF);
 		log = Logger.getLogger(NewTest.class);
-		log.setLevel(org.apache.log4j.Level.ALL);
+		log.setLevel(org.apache.log4j.Level.OFF);
 		 
 			
 		

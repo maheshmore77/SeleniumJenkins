@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.expedia.testartifcat.TestNG_Grouping">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.expedia.testartifcat.TestNG_Grouping -->
+      <class name="com.expedia.testartifcat.TestNG_TestSuite">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.expedia.testartifcat.TestNG_TestSuite -->
+      <class name="com.expedia.testartifcat.NewTest">
+        <methods>
+          <include name="SelectHotels"/>
+          <include name="SelectFlights"/>
+          <include name="beforemethod"/>
+          <include name="beforeClass"/>
+          <include name="teardown"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.expedia.testartifcat.NewTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

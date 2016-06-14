@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [TestSuite]">
+  <test name="ExpediaSearchPage">
+    <groups>
+      <define name="Honda and SUV">
+        <include name="Honda"/>
+        <include name="SUV"/>
+        <include name="Sedan"/>
+      </define> <!-- Honda and SUV -->
+      <run>
+        <include name="Honda and SUV"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.expedia.testartifcat.TestNG_Grouping"/>
+    </classes>
+  </test> <!-- ExpediaSearchPage -->
+</suite> <!-- Failed suite [TestSuite] -->

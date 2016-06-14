@@ -51,11 +51,11 @@ public class NewTest {
 			homepage.setOriginCity("New York ");
 			homepage.origincity.sendKeys(Keys.BACK_SPACE);
 			//Thread.sleep(3000);
-			homepage.selectoption();
+		//	homepage.selectoption();
 		//	log.info("Selected New York");
 			homepage.setDestinationcity("LAX");
 			//Thread.sleep(3000);
-			homepage.selectoption();
+		//	homepage.selectoption();
 		//	log.info("Selected LAX");
 			homepage.setdepartingdates("22/06/2016");
 		//	log.info("Selected departing date");
